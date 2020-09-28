@@ -1,0 +1,75 @@
+# This map shows a goose-to-duck transformation ritual executed
+# by the inhabitants of Duckietown
+
+tiles:
+- [curve_right/N    , curve_right/E, grass      , grass     , grass     , curve_right/N , curve_right/E]
+- [curve_right/W    , 4way         , straight/W , straight/W, straight/W, 4way          , curve_right/S]
+- [grass            , straight/S   , floor      , floor     , floor     , straight/N    , grass]
+- [grass            , straight/S   , floor      , grass     , floor     , straight/N    , grass]
+- [grass            , straight/S   , floor      , floor     , floor     , straight/N    , grass]
+- [curve_right/N    , 4way         , straight/E , straight/E, straight/E, 4way          , curve_right/E]
+- [curve_right/W    , curve_right/S, grass      , grass     , grass     , curve_right/W , curve_right/S]       
+
+objects:
+
+- kind: tree
+  pos: [3.9, 3.4]
+  rotate: 180
+  height: 0.45
+  optional: true 
+
+
+- kind: duckie
+  pos: [2.5, 2.5]
+  rotate: -45
+  height: 0.13
+  optional: true
+  
+- kind: duckie
+  pos: [3.5, 2.5]
+  rotate: -90
+  height: 0.08
+  optional: true
+
+- kind: duckie
+  pos: [4.5, 2.5]
+  rotate: -135
+  height: 0.08
+  optional: true
+
+- kind: duckie
+  pos: [2.5, 3.5]
+  rotate: 0
+  height: 0.4
+  optional: true
+
+- kind: duckie
+  pos: [4.5, 3.5]
+  rotate: 180
+  height: 0.01
+  optional: true
+
+- kind: duckie
+  pos: [2.5, 4.5]
+  rotate: 45
+  height: 0.1
+  optional: true
+
+- kind: duckie
+  pos: [3.5, 4.5]
+  rotate: 90
+  height: 0.088
+  optional: true
+
+- kind: duckie
+  pos: [4.5, 4.5]
+  rotate: 135
+  height: 0.089
+  optional: true
+
+- kind: goose
+  pos: [3.5, 3.5]
+  rotate: 135
+  height: 0.089
+  optional: true
+tile_size: 0.585
